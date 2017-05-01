@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 The initial start of a Movie Gallery that lists various movie titles and metadata on the screen. Using AngularJS (>1.5), and no jQuery, create a working Movie Gallery as described on your assignment in Moodle.
 
 Make sure to track all your changes using good commit messages (http://chris.beams.io/posts/git-commit/). 
@@ -14,3 +15,6 @@ There are example images in:
 /examples/
 
 Leave the index.php file alone. It is used to make sure your Heroku server deploys correctly with PHP functionality and also automatically redirects visitors to index.html.
+=======
+# is219s17lMajor-p3
+>>>>>>> bcebca1652a8b115c3b0b328d7a430dbf2228470
