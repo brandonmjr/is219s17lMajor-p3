@@ -20,6 +20,48 @@ app.controller('HomeController', ['$scope', function($scope) {
 	*/
 	$scope.movies = [
     { 
+      title:      'Days of Future\'s Past', 
+      iscore:     8.0,
+      rating:     'PG-13',
+      runtime:    124,
+      released:   new Date('2014', '5', '23'),
+      country:    'USA',
+      posters:    ['img/dofp_2.jpg', 'img/dofp_1.jpg'],
+      imdb:       'http://www.imdb.com/title/tt1877832/?ref_=fn_tt_tt_122',
+      website:    'http://xmenmovies.wikia.com/wiki/X-Men:_Days_of_Future_Past',
+      likes:      756,
+      dislikes:   72,
+      posterindex: 0
+      },
+    { 
+      title:      'X-men United', 
+      iscore:     8.9,
+      rating:     'R',
+      runtime:    195,
+      released:   new Date('1993', '11', '30'),
+      country:    'USA',
+      posters:    ['img/x2_1.jpg', 'img/x2_2.jpg'],
+      imdb:       'http://www.imdb.com/title/tt0108052',
+      website:    'https://www.uphe.com/schindlers-list',
+      likes:      812,
+      dislikes:   101,
+      posterindex: 0
+      },
+    { 
+      title:      'Deadpool', 
+      iscore:     8.9,
+      rating:     'R',
+      runtime:    195,
+      released:   new Date('1993', '11', '30'),
+      country:    'USA',
+      posters:    ['img/deadpool_1.jpg','img/deadpool_2.jpg'],
+      imdb:       'http://www.imdb.com/title/tt0108052',
+      website:    'https://www.uphe.com/schindlers-list',
+      likes:      812,
+      dislikes:   101,
+      posterindex: 0
+      },
+    { 
       title:	'The Shawshank Redemption', 
       iscore:	9.3,
       rating:	'R',
@@ -76,19 +118,19 @@ app.controller('HomeController', ['$scope', function($scope) {
       posterindex: 0
 	},
     { 
-      title:	'Schindler\'s List', 
-      iscore:	8.9,
-      rating:	'R',
-      runtime:	195,
-      released:	new Date('1993', '11', '30'),
-      country:	'USA',
-      posters:	['img/schindlerslist.jpg'],
-      imdb:		'http://www.imdb.com/title/tt0108052',
-      website:	'https://www.uphe.com/schindlers-list',
-      likes:	812,
-      dislikes:	101,
+      title:      'Schindler\'s List', 
+      iscore:     8.9,
+      rating:     'R',
+      runtime:    195,
+      released:   new Date('1993', '11', '30'),
+      country:    'USA',
+      posters:    ['img/schindlerslist.jpg'],
+      imdb:       'http://www.imdb.com/title/tt0108052',
+      website:    'https://www.uphe.com/schindlers-list',
+      likes:      812,
+      dislikes:   101,
       posterindex: 0
-	}
+      }
 	
 	
   ];
