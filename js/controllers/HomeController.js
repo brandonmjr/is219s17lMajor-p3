@@ -100,6 +100,30 @@ app.controller('HomeController', ['$scope', function($scope) {
 	$scope.title = "IMDB Brandon's Top 8 Movies";
 	$scope.owner = "Brandon";
       $scope.github = "https://github.com/brandonmjr/is219s17lMajor-p3";
+
+      $scope.like = function(index){
+            $scope.movies[index].likes += 1;
+      };
+
+      $scope.dislike = function(index){
+            $scope.movies[index].likes -= 1;
+      };
+
+      $scope.posterClick = function(index){
+            if($scope.movies[index].posterindex < ($scope.movies[index].posters.length - 1)){
+                  $scope.movies[index].posterindex += 1;
+            }else{
+                  $scope.movies[index].posterindex = 0;
+            }
+            
+      };
+
+      $scope.timeText = function(minutes){
+            var hours = Math.floor(minutes / 60);
+            var min = minutes % 60
+
+            return hours+"h "+ min + "m";
+      };
 	
 	
 	
